@@ -9,14 +9,14 @@ it has several methods ->
 4. assert.doesNotMatch(string, regexp[, message]) -> experimental.
 5. assert.doesNotReject(asyncFn[, error][, message])
 6. assert.doesNotThrow(fn[, error][, message])
-7. assert.equal(actual, expected[, message])
+7. assert.equal(actual, expected[, message]) -> deprecated.
 8. assert.fail([message])
 9. assert.fail(actual, expected[, message[, operator[, stackStartFn]]]) -> deprecated.
 10. assert.ifError(value)
-11. assert.match(string, regexp[, message])
-12. assert.notDeepEqual(actual, expected[, message])
+11. assert.match(string, regexp[, message]) -> experimental.
+12. assert.notDeepEqual(actual, expected[, message]) -> deprecated
 13. assert.notDeepStrictEqual(actual, expected[, message])
-14. assert.notEqual(actual, expected[, message])
+14. assert.notEqual(actual, expected[, message]) -> deprecated.
 15. assert.notStrictEqual(actual, expected[, message])
 16. assert.ok(value[, message])
 17. assert.rejects(asyncFn[, error][, message])
